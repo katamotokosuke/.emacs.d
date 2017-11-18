@@ -1,7 +1,7 @@
 
 (package-initialize)
 (require 'linum)
-(require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
+(require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (require 'helm-config)
 (helm-mode 1)
