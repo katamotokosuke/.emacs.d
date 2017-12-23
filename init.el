@@ -5,7 +5,6 @@
 (cask-initialize)
 (require 'helm-config)
 (helm-mode 1)
-(load-theme 'manoj-dark)
 ;;projectile
 (setq projectile-completion-system 'helm)
 ;;projectil-rails
@@ -29,7 +28,7 @@
 (global-linum-mode)
 
 ;;バックアップファイル作成しない
-(setq make-backup-file t)
+(setq make-backup-file nil)
 ;;自動保存ファイルを作成しない
 (setq auto-save-default nil)
 ;;ロックファイルを作成しない
@@ -84,4 +83,7 @@
 (define-key company-search-map (kbd "C-n") 'company-select-next)
 (define-key company-search-map (kbd "C-p") 'company-select-previous)
 
+;;列の折り返しを無効
+(setq-default truncate-partial-width-windows t)
+(setq-default truncate-lines t)
 
