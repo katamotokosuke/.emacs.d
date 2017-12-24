@@ -87,3 +87,6 @@
 (setq-default truncate-partial-width-windows t)
 (setq-default truncate-lines t)
 
+
+;;ジャンプ
+(define-key global-map (kbd "C-j") 'dumb-jump-go)

@@ -36,3 +36,4 @@
 (depends-on "auto-highlight-symbol")
 (depends-on "flycheck")
 (depends-on "helm")
+(depends-on "dumb-jump")
