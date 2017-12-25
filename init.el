@@ -5,6 +5,7 @@
 (cask-initialize)
 (require 'helm-config)
 (helm-mode 1)
+
 ;;projectile
 (setq projectile-completion-system 'helm)
 ;;projectil-rails
